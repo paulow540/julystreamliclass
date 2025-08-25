@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import time
-import sqlite3
+# import time
+# import sqlite3
 # from form.login import login
 from form.signup import sign_up
 

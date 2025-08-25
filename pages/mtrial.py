@@ -12,11 +12,11 @@ with tab1:
      st.image("././static/cat.jpg", width=200)
 with tab2:
      st.header("A dog")
-     st.image(".\\.\\static\\dog.jpg", width=200)
+     st.image("././static/dog.jpg", width=200)
 with tab3:
      st.header("An owl")
-     st.image(".\\.\\static\\owl.jpg", width=200)
+     st.image("././static/owl.jpg", width=200)
 
 with tab4:
-    df = pd.read_csv(".\\.\\us_births.csv")
+    df = pd.read_csv("././us_births.csv")
     st.dataframe(df.head())

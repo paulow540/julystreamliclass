@@ -39,7 +39,7 @@ st.markdown("""
 about = st.Page(page="pages\\usabout.py",
                 title="About page",
                 icon="🅰️",
-                default=True,
+                # default=True,
                 )
 mtrail = st.Page(page="pages\mtrial.py",
                 title="Trail page",

@@ -9,7 +9,7 @@ tab1, tab2, tab3, tab4 = st.tabs(["Cat", "Dog", "Owl", "Data"])
 
 with tab1:
      st.header("A cat")
-     st.image(".\\.\\static\\cat.jpg", width=200)
+     st.image("././static/cat.jpg", width=200)
 with tab2:
      st.header("A dog")
      st.image(".\\.\\static\\dog.jpg", width=200)

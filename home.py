@@ -36,22 +36,22 @@ st.markdown("""
 
 
 # SIDEBAR
-about = st.Page(page="pages\\usabout.py",
+about = st.Page(page="pages/usabout.py",
                 title="About page",
                 icon="🅰️",
                 # default=True,
                 )
-mtrail = st.Page(page="pages\mtrial.py",
+mtrail = st.Page(page="pages/mtrial.py",
                 title="Trail page",
                 icon="📈",
               )
 
-contact = st.Page(page="pages\contact.py",
+contact = st.Page(page="pages/contact.py",
                 title="Contact page",
                 icon="Ⓜ️"
                 )
 
-message = st.Page(page="pages\message.py",
+message = st.Page(page="pages/message.py",
                 title="Message page",
                 icon="🏦"
                 )

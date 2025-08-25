@@ -11,7 +11,7 @@ st.title("Contact us")
 
 
 with st.expander("See explanation"):
-    df = pd.read_csv(".\\.\\us_births.csv")
+    df = pd.read_csv("././us_births.csv")
     st.dataframe(df.head())
 
 
